@@ -4,14 +4,15 @@
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
+.adjust-fontsize {
+    font-size: 24px;
+}
+
 #second {
     color: rgb(0,0,255);
     font-size: 36px;
 }
 
-#third {
-    font-size: 24px;
-}
 
 #fourth {
     background-color: rgba(20,155,10,0.4);
