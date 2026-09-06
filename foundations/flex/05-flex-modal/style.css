@@ -20,6 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
 }
 
 .icon {
@@ -67,3 +69,28 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.header {
+  font-size: larger;
+}
+
+.horizontal {
+  display: flex;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom {
+  display: flex; 
+}
+
+/*
+.header, .bottom, .text {
+  display: flex;
+  align-items: center;
+  align-content: center;
+} 
+ need to fix */
